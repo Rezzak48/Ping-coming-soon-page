@@ -1,0 +1,106 @@
+/*========== GOOGLE FONTS ===========*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap");
+
+/*========== VARIABLES CSS ===========*/
+:root {
+  /*========== RENDER 1REM = 10px ===========*/
+  font-size: 62.5%;
+
+  --header-height: 8.2rem;
+
+  /*========== Colors ==========*/
+  --body-color: hsl(0, 0%, 100%);
+  --title-color: hsl(0, 0%, 59%);
+  --text-color: hsl(209, 33%, 12%);
+  --button-color: hsl(223, 87%, 63%);
+  --button-color-alt: hsl(223, 87%, 76%);
+  --button-color-border: hsl(223, 100%, 88%);
+  --alert-color: hsl(354, 100%, 66%);
+
+  /*========== Font and typography ==========*/
+  --body-font: "Libre Franklin", sans-serif;
+
+  --h1-font-size: 4.8rem;
+  --normal-font-size: 2rem;
+  --footer-font-size: 1.3rem;
+  --small-font-size: 1.2rem;
+
+  --h1-line-height: 3.2rem;
+
+  /*========== Font weight ==========*/
+  --font-light: 300;
+  --font-semi-bold: 600;
+  --font-bold: 700;
+
+  /*========== Margins Bottom ==========*/
+  --mb-logo: 4rem;
+  --mb-title: 1.5rem;
+  --mb-subtitle: 3.2rem;
+  --mb-input: 1rem;
+  --mb-button: 7.2rem;
+  --mb-image: 12.4rem;
+  --mb-social: 2.9rem;
+  --mb-footer: 0.5rem;
+}
+
+/* Font size for large devices */
+@media (max-width: 968px) {
+  :root {
+    --h1-font-size: 2.2rem;
+    --normal-font-size: 1.2rem;
+    --footer-font-size: 1.3rem;
+    --small-font-size: 10rem;
+  }
+}
+
+/*==================== BASE ====================*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* margin: 0 0 var(--header-height) 0; */
+  margin: var(--header-height) 0;
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+  text-align: center;
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  line-height: var(--h1-line-height);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*=========== REUSABLE CLASSES ===========*/
+.title,
+.special-title {
+  color: var(--title-color);
+}
+
+.section {
+  padding-left: 4.8rem;
+  padding-right: 4.8rem;
+}

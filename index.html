@@ -4,11 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    
+      <!--==================== ICONS ====================-->
+      <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+      <!--==================== CSS FILES ====================-->
+    <link rel="stylesheet" href="./assets/css/base.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    
     <title>Ping-coming-soon-page</title>
+
   </head>
   <body>
-    <main></main>
+    <header class="section section-header">
+      <a href="./index.html" class="header-link">
+        <img src="./assets/images/logo.svg" alt="ping logo" class="header-logo">
+          
+        </svg>
+      </a>
+    </header>
+
+    <main class="section section-main">
+      <div class="header-text">
+        <h1 class="title">We are launching <span>soon!</span></h1>
+        <p class="subtitle">Subscribe and get notified</p>
+      </div>
+
+      <form action="" class="input-form">
+        <input
+          type="email"
+          name="email"
+          class="input-email"
+          placeholder="Your email address..."
+          required
+        />
+        <input
+          type="submit"
+          name="notiy-me"
+          id="notiy-me"
+          value="Notify Me"
+          class="input-button"
+        />
+      </form>
+
+      <img
+        class="img-dashboard"
+        src="./assets/images/illustration-dashboard.png"
+        alt="dashboard"
+      />
+
+    </main>
+
+    <footer class="section section-footer">
+      <div class="social-media">
+        <ul class="social-list">
+          <li class="social-item"> <i class="uil uil-facebook-f social-icon"></i> </li>
+          <li class="social-item"> <i class="uil uil-twitter social-icon"></i> </li>
+          <li class="social-item"> <i class="uil uil-instagram social-icon"></i> </li>
+        </ul>
+      </div>
+
+      <div class="footer-copyright">
+        <p class="copyright-text">
+          &copy; Copyright Ping. All rights reserved.
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
