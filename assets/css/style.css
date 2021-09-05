@@ -4,7 +4,7 @@
 }
 
 .header-logo {
-  min-width: 5.6rem;
+  width: var(--logo-width);
 }
 
 /*==================== MAIN ====================*/
@@ -59,12 +59,3 @@
   background-color: var(--button-color-alt);
 }
 
-/*==================== FOOTER ====================*/
-.section-footer {
-  margin-bottom: var(--mb-footer);
-}
-
-.social-list {
-  display: flex;
-  justify-content: center;
-}

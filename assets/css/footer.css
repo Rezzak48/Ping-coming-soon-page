@@ -1,0 +1,40 @@
+/*==================== FOOTER ====================*/
+.section-footer {
+  margin-bottom: var(--mb-footer);
+}
+
+.social-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-bottom: var(--mb-social);
+}
+
+.social-item {
+  width: 3.2rem;
+  height: 3.2rem;
+  border: 0.1rem solid var(--button-color-border);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-item:hover {
+  background-color: var(--button-color);
+}
+.social-link {
+}
+
+.social-icon {
+  color: var(--button-color);
+  font-size: 1.9rem;
+}
+
+.social-icon:hover {
+  color: var(--body-color);
+}
+
+.footer-text {
+  
+}
