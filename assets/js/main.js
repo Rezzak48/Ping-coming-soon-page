@@ -14,12 +14,12 @@ function validation() {
     error.innerHTML = " Valid Email ";
     error.style.color = "green";
   } else {
-    error.innerHTML = " Please write a valid email address";
+    error.innerHTML = "Please provide a valid email address";
     error.style.color = "red";
   }
 
   if (email == "") {
-    error.innerHTML = "";
+    error.innerHTML = "Whoops! It looks like you forgot to add your email";
   }
 }
 
