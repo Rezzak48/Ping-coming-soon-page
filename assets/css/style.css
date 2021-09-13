@@ -28,6 +28,10 @@
   color: var(--text-color);
 }
 
+.input-form {
+  position: relative;
+}
+
 .input-email,
 .input-button {
   width: 100%;
@@ -38,6 +42,7 @@
 
 .input-email {
   border: 0.1rem solid var(--button-color-border);
+  outline: none;
   margin-bottom: var(--mb-input);
 }
 
@@ -57,6 +62,15 @@
   font-size: var(--normal-font-size);
 }
 
+.form-error-msg {
+  font-size: var(--small-font-size);
+  color: var(--alert-color);
+  position: absolute;
+  margin-top: calc( 1.3rem - var(--mb-button) );
+  width: 100%;
+  transition: 0.5s;
+}
+
 .input-button:hover {
   background-color: var(--button-color-alt);
 }
@@ -64,11 +78,27 @@
 @media (min-width: 700px) {
   .input-form {
     display: flex;
+    justify-content: center;
     gap: 1.6rem;
+  }
+
+  .input-email {
+    max-width: var(--input-width);
   }
 
   .input-button {
     max-width: 20rem;
-    width: 100%;
+    /* width: 100%; */
+  }
+
+  .img-dashboard {
+    max-width: 64rem;
+  }
+
+  .form-error-msg {
+    font-size: calc( var(--small-font-size) + .2rem);
+    text-align: left;
+    max-width: var(--input-width);
+    transform: translateX(50%);
   }
 }

@@ -37,24 +37,34 @@
       <div class="header-text">
         <h1 class="title">We are launching <span>soon!</span></h1>
         <p class="subtitle">Subscribe and get notified</p>
-      </div>
 
-      <form action="" class="input-form">
+      <form action="/" method="GET" class="input-form" id="form">
+        <div>
         <input
-          type="email"
+          type="text"
           name="email"
+          id="email"
           class="input-email"
+          value=""
           placeholder="Your email address..."
-          required
+          onkeydown="validation()"
+          
+          
         />
+
         <input
           type="submit"
           name="notiy-me"
-          id="notiy-me"
+          id="submit"
           value="Notify Me"
           class="input-button"
         />
+    
+
+        <p class="form-error-msg" id="error"> </p>
       </form>
+
+      
 
       <img
         class="img-dashboard"
@@ -81,5 +91,6 @@
         </p>
       </div>
     </footer>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>

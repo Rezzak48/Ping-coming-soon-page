@@ -8,6 +8,7 @@
 
   --header-height: 8.2rem;
   --logo-width: 5.6rem;
+  --input-width: 42.5rem;
   /*========== Colors ==========*/
   --body-color: hsl(0, 0%, 100%);
   --title-color: hsl(0, 0%, 59%);
@@ -23,7 +24,7 @@
   --h1-font-size: 2.2rem;
   --normal-font-size: 1.2rem;
   --footer-font-size: 1.3rem;
-  --small-font-size: 10rem;
+  --small-font-size: 1rem;
 
   --h1-line-height: 3.2rem;
 
