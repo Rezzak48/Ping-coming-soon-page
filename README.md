@@ -30,18 +30,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./DesignScreenshots/DesktopScreen0.png)
-![](./DesignScreenshots/DesktopScreen1.png)
-![](./DesignScreenshots/DesktopScreen2.png)
-![](./DesignScreenshots/DesktopScreen3.png)
-![](./DesignScreenshots/MobileVersion0.png)
-![](./DesignScreenshots/MobileVersion1.png)
-![](./DesignScreenshots/MobileVersion2.png)
-![](./DesignScreenshots/MobileVersion3.png)
+![](./assets/DesignScreenshots/DesktopScreen0.png)
+![](./assets/DesignScreenshots/DesktopScreen1.png)
+![](./assets/DesignScreenshots/DesktopScreen2.png)
+![](./assets/DesignScreenshots/DesktopScreen3.png)
+![](./assets/DesignScreenshots/MobileVersion0.png)
+![](./assets/DesignScreenshots/MobileVersion1.png)
+![](./assets/DesignScreenshots/MobileVersion2.png)
+![](./assets/DesignScreenshots/MobileVersion3.png)
 
 ### Links
 
-<!-- Live Site URL: [Live Site URL:](linkHere) -->
+Live Site URL: [Live Site URL:](https://tender-brattain-013d9d.netlify.app/)
 
 ## My process
 
